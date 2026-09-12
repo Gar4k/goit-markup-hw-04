@@ -3,11 +3,20 @@
     gap: 24px;
 }
 
-
 .features > .container > ul > li {
     width: calc((100% - 24px * 3) / 4);
 }
 
+.features-icon-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    background-color: #f4f4fd;
+    color: #2e2f42;
+}
 
 .features h3 {
     font-weight: 500;
@@ -17,7 +26,6 @@
     color: #2e2f42;
     margin-bottom: 8px;
 }
-
 
 .features p {
     font-size: 16px;
