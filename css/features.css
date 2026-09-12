@@ -13,12 +13,13 @@
     justify-content: center;
     height: 112px;
     margin-bottom: 8px;
+    border: 1px solid #8e8f99;
     border-radius: 4px;
     background-color: #f4f4fd;
     color: #2e2f42;
 }
 
-.features h3 {
+.features-item-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -27,7 +28,7 @@
     margin-bottom: 8px;
 }
 
-.features p {
+.features-item-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
