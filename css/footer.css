@@ -103,6 +103,15 @@
 
 .footer-input::placeholder {
     color: #f4f4fd;
+    opacity: 1;
+}
+
+/* Автозаповнення браузера не перебиває темний фон і білий текст */
+.footer-input:-webkit-autofill,
+.footer-input:-webkit-autofill:focus {
+    -webkit-text-fill-color: #ffffff;
+    caret-color: #ffffff;
+    box-shadow: 0 0 0 1000px #2e2f42 inset;
 }
 
 .footer-input:hover,
@@ -113,7 +122,9 @@
 .footer-submit {
     display: flex;
     align-items: center;
+    flex-shrink: 0;
     gap: 16px;
+    white-space: nowrap;
     height: 40px;
     padding: 8px 24px;
     border: none;
